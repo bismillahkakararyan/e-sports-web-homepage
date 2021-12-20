@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#appslogo {
+  transform: scale(0.7);
+}
+.landing-page {
+  background-image: radial-gradient(#5a8dfa, #c64ffa);
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(1rem);
+}
+ul {
+  display: flex;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.nav ul li:hover {
+  color: black;
+}
+#loginbtn {
+  color: #fff;
+  transition: 0.5s;
+}
+#loginbtn:hover {
+  color: #000000;
+}
+#signupbtn {
+  color: #5a8dfa;
+  background: rgb(255, 255, 255);
+  padding: 0.8em 1em;
+  font-weight: 600;
+  width: 7.5rem;
+  transform: translateX(1rem);
+  transition: 0.5s;
+}
+#signupbtn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.landing-page-text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(10rem) translateY(10rem);
+  width: 50rem;
+}
+#landing-page-h1 {
+  color: white;
+  width: 17rem;
+}
+#landing-page-p {
+  color: white;
+  width: 27rem;
+}
+.ctabtn {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+#downloadapp {
+  background: #ffffff;
+  color: #5a8dfa;
+  transition: 0.5s;
+}
+#downloadapp:hover {
+  color: black;
+}
+#aboutapp {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: white;
+  transform: translateX(1.5rem);
+  width: 10rem;
+  transition: 0.5s;
+}
+#aboutapp:hover {
+  color: #5a8dfa;
+  background-color: white;
+}
+#mobile-app-mockup {
+  transform: translateY(-12rem) translateX(35rem);
+  position: relative;
+  z-index: 2;
+}
+
+/* shapes */
+.circle_1 {
+  border-radius: 50%;
+  border: none;
+  background: white;
+  height: 1rem;
+  width: 1rem;
+  transform: translateY(-30rem) translateX(5rem);
+}
+.circle_2 {
+  border-radius: 50%;
+  border: solid 1px #fff;
+  background: transparent;
+  height: 1.5rem;
+  width: 1.5rem;
+  transform: translateY(-37rem) translateX(7rem);
+}
+.circle_3 {
+  border-radius: 50%;
+  border: none;
+  background: white;
+  height: 0.3rem;
+  width: 0.3rem;
+  transform: translateY(-50rem) translateX(5rem);
+}
+.circle_4 {
+  border-radius: 50%;
+  border: none;
+  background: white;
+  height: 0.7rem;
+  width: 0.7rem;
+  transform: translateY(-50rem) translateX(25rem);
+}
+.circle_5 {
+  border-radius: 50%;
+  border: none;
+  background: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  transform: translateY(-50rem) translateX(83.2rem);
+}
+.circle_6 {
+  border-radius: 50%;
+  border: 1px solid white;
+  background: transparent;
+  height: 9rem;
+  width: 9rem;
+  transform: translateY(-30rem) translateX(57rem);
+}
+.circle_7 {
+  border-radius: 50%;
+  border: 1px solid white;
+  background: transparent;
+  height: 7rem;
+  width: 7rem;
+  transform: translateY(-29.1rem) translateX(80rem);
+}
+
+.download {
+  border: none;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background: rgb(98, 209, 209);
+  transform: translateY(3rem) translateX(1.3rem);
+}
+.download1 {
+  border: none;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background: rgb(98, 209, 209);
+  transform: translateY(-3.9rem) translateX(-1.1rem);
+}
+.maindownload {
+  border: none;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  transform: translateX(5re);
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
+}
+
+.downloadcover {
+  width: 20rem;
+  transform: translateX(5rem);
+}
+.download-text {
+  transform: translateX(-8rem) translateY(-3rem);
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.third-page {
+  height: 100vh;
+  background-image: radial-gradient(#5a8dfa, #c64ffa);
+}
+.third-page-text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  transform: translateX(10rem) translateY(4rem);
+}
+
+#secondmockup {
+  transform: translateY(-28rem) translateX(15rem);
+  position: relative;
+  z-index: 1;
+}
+/* shapes */
+.circle--1 {
+  border-radius: 50%;
+  border: none;
+  background-image: radial-gradient(#5a8dfa, #c64ffa);
+  height: 7rem;
+  width: 7rem;
+  transform: translateY(-49.1rem) translateX(42rem);
+}
+.circle--2 {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 9rem;
+  width: 9rem;
+  transform: translateY(-69.1rem) translateX(61rem);
+}
+.circle--3 {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 1rem;
+  width: 1rem;
+  transform: translateY(-69.1rem) translateX(-9rem);
+}
+.circle--4 {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: white;
+  height: 1rem;
+  width: 1rem;
+  transform: translateY(-89.1rem) translateX(9rem);
+}
+.circle--5 {
+  border-radius: 50%;
+  border: none;
+  background: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  transform: translateY(-60rem) translateX(72.5rem);
+}
+
+.download-page {
+  height: 80rem;
+}
+.download-page-text {
+  transform: translateY(7rem);
+}
+
+#bg-video {
+  height: 100rem;
+  width: 100vw;
+  transform: translateY(-6rem);
+}
+#downloaddappbtn {
+  color: #ffffff;
+  background: #000000;
+  padding: 0.8em 1em;
+  border: none;
+  font-weight: 600;
+  width: 11.5rem;
+  transform: translateX(1rem);
+  transition: 0.5s;
+}
+#downloaddappbtn:hover {
+  background: #fff;
+  color: #000;
+}
+#aboutappbtn {
+  color: #000000;
+  background: rgb(255, 255, 255);
+  padding: 0.8em 1em;
+  font-weight: 600;
+  width: 7.5rem;
+  transition: 0.5s;
+  border: none;
+  transform: translateX(5rem);
+}
+#aboutappbtn:hover {
+  background: #000;
+  color: white;
+}
+.btns-download {
+  transform: translateY(-55rem) translateX(30rem);
+}
+
+.footer-wrapp {
+  background-image: radial-gradient(#5a8dfa, #c64ffa);
+  display: grid;
+  transform: translateY(0rem);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 8.5rem;
+}
+.footer-wrapp ul {
+  display: flex;
+  flex-direction: column;
+}
+#footer-logo {
+  transform: scale(0.7);
+  text-align: center;
+}
+.footer-wrapp li {
+  color: white;
+  padding-top: 1rem;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: translateX(-1.4rem);
+}
+.fourthcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-wrapp li:hover {
+  color: black;
+}
+.fourthcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateX(7rem);
+}
+
+.footer-icon {
+  padding: 3px;
+  transition: 0.5s;
+  width: 2em;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  background: transparent;
+}
+.footer-icon:hover {
+  color: black;
+}
